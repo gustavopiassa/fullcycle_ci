@@ -9,3 +9,7 @@ func main() {
 func soma(a, b int) int {
 	return a + b
 }
+
+func testMeuOvo() {
+	fmt.Println("teste")
+}
