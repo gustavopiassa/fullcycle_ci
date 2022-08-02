@@ -7,5 +7,7 @@ func TestSoma(t *testing.T) {
 
 	if total != 3 {
 		t.Errorf("Soma deve retornar %d, mas retornou %d", 3, total)
+	} else {
+		testMeuOvo()
 	}
 }
